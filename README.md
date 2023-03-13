@@ -38,7 +38,7 @@ Add the `BucketsBootstrapper::class` to the tenancy config file under `bootstrap
 ```php
     'bootstrappers' => [
         // ...
-        Versa\TenancyExtension\TenancyExtensionServiceProvider::class,
+        Versa\TenancyExtension\Bootstrappers\BucketsBootstrapper::class,
     ],
 ```
 
