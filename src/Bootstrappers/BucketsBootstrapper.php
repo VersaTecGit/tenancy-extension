@@ -1,6 +1,6 @@
 <?php
 
-namespace Rayo\TenancyExtension\Bootstrappers;
+namespace Versa\TenancyExtension\Bootstrappers;
 
 use Illuminate\Contracts\Foundation\Application;
 use Stancl\Tenancy\Contracts\TenancyBootstrapper;

@@ -1,16 +1,16 @@
 <?php
 
-namespace Rayo\TenancyExtension;
+namespace Versa\TenancyExtension;
 
 use Aws\Credentials\Credentials;
 use Aws\Exception\AwsException;
 use Aws\S3\S3Client;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
-use Rayo\TenancyExtension\Events\CreatedBucket;
-use Rayo\TenancyExtension\Events\CreatingBucket;
-use Rayo\TenancyExtension\Events\DeletedBucket;
-use Rayo\TenancyExtension\Events\DeletingBucket;
+use Versa\TenancyExtension\Events\CreatedBucket;
+use Versa\TenancyExtension\Events\CreatingBucket;
+use Versa\TenancyExtension\Events\DeletedBucket;
+use Versa\TenancyExtension\Events\DeletingBucket;
 use Stancl\Tenancy\Contracts\TenantWithDatabase;
 
 class Bucket

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rayo\TenancyExtension\Jobs;
+namespace Versa\TenancyExtension\Jobs;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -9,7 +9,7 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Stancl\Tenancy\Contracts\TenantWithDatabase;
-use Rayo\TenancyExtension\Bucket;
+use Versa\TenancyExtension\Bucket;
 
 class DeleteTenantBucket implements ShouldQueue
 {

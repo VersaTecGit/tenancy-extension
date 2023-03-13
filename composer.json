@@ -1,5 +1,5 @@
 {
-    "name": "rayo/tenancy-extension",
+    "name": "versa/tenancy-extension",
     "description": "A Laravel package to add some features to the Tenancy For Laravel package.",
     "type": "library",
     "license": "MIT",
@@ -17,7 +17,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Rayo\\TenancyExtension\\": "src/"
+            "Versa\\TenancyExtension\\": "src/"
         }
     },
     "minimum-stability": "dev",
