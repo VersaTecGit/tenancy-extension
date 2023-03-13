@@ -1,0 +1,25 @@
+{
+    "name": "rayo/tenancy-extension",
+    "description": "A Laravel package to add some features to the Tenancy For Laravel package.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0",
+        "league/flysystem-aws-s3-v3": "^3.0",
+        "stancl/tenancy": "^3.7"
+    },
+    "authors": [
+        {
+            "name": "Rodrigo C.",
+            "email": "rodrigo.versatec@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rayo\\TenancyExtension\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
